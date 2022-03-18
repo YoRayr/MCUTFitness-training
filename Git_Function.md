@@ -28,3 +28,11 @@ git push
 ```console
 git push --set-upstream origin test1
 ```
+##新增分支branch
+```console
+git branch name
+```
+##切換分支
+```console
+git checkout name
+```
