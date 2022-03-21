@@ -110,14 +110,13 @@
      line-height: 24px;
 }
  .btn.btn-primary.btn-lg {
-     float: left;
+     float: none;
      background: #1c72ce;
      font-size: 15px;
      text-transform: uppercase;
      min-width: 160px;
      height: 50px;
      border-radius: 5px;
-     justify-content: center;
 }
  .btn.btn-primary.btn-lg:hover,.btn.btn-primary.btn-lg:focus {
      background:#d8302f;
@@ -474,10 +473,22 @@
      margin-bottom: 0;
 }
  .full {
-     float: left;
+     /* float: left; */
      width: 100%;
      margin: 0;
      padding: 0;
+}
+.btn.btn-grade {
+    float: none;
+    background: #1c72ce;
+    font-size: 15px;
+    text-transform: uppercase;
+    min-width: 160px;
+    height: 50px;
+    border-radius: 5px;
+}
+.btn.btn-grade:hover,.btn.btn-grade:focus {
+    background:#d8302f;
 }
  .team-btw-match ul {
      margin: 0;
@@ -485,11 +496,11 @@
      list-style: none;
 }
  .team-btw-match ul li {
-     float: left;
+     /* float: left; */
      text-align: center;
 }
  .team-btw-match {
-     float: left;
+     /* float: left; */
      width: 100%;
      display: block;
      justify-content: center;
@@ -504,7 +515,7 @@
      width: 100%;
 }
  .team-btw-match ul li span {
-     float: left;
+     /* float: left; */
      width: 100%;
      font-size: 18px;
      font-weight: 600;
@@ -516,7 +527,7 @@
 }
  .team-btw-match li.vs span {
      background: #000;
-     float: left;
+     /* float: left; */
      color: #fff;
      padding: 0 6px;
      border-radius: 100%;
@@ -524,7 +535,7 @@
      font-size: 16px;
 }
  .matchs-vs {
-     float: left;
+     /* float: left; */
      width: 100%;
      background: src="../images/3cm.jpeg";
      color: #fff;
